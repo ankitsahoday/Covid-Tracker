@@ -1,0 +1,45 @@
+ h1 {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+}
+
+body
+{
+    background-color: rgba(200, 21, 230, 0.4);
+    
+}
+
+.container
+{
+    /* background-color: red; */
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.ri {
+    outline: none;
+    
+    background-color: palegreen;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.di
+{
+    background-color: red;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.ci 
+{
+    background-color: yellow;
+    border-radius: 10px;
+    color: black;
+}
+

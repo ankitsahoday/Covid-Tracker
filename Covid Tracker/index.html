@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COVID Tracker</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css" 
+integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" 
+crossorigin="anonymous">
+<script src="\script.js"></script>
+<link rel="stylesheet" href="\styles.css">
+</head>
+<body>
+
+<h1>Covid Tracker
+</h1>
+<br>
+<h2>Across India</h2>
+
+<div class="container">
+	<div class="row">
+	<div class="col-md-4 ci">
+			Confirmed 
+			<br>
+			<p id="cin">select state</p>
+	</div>
+	<div class="col-md-4 ri">
+			Recovered 
+			<br>
+			<p id="rin">select state</p>
+	</div>
+	<div class="col-md-4 di">
+			Deaths
+			<br>
+			<p id="din">select state</p>
+	</div>
+	</div>
+</div>
+
+
+<!-- <button type="button" class="btn btn-primary">Check Data</button> -->
+
+<br>
+<br>
+
+<h2>State wise India</h2>
+
+<label for="states">Choose State:</label>
+
+
+<select name="state" id="individual">
+
+<option value="0">Andaman and Nicobar Islands</option>
+<option value="1">Andhra Pradesh</option>
+<option value="2">Arunachal Pradesh</option>
+<option value="3">Assam</option>
+<option value="4">Bihar</option>
+<option value="5">Chandigarh</option>
+<option value="7">Dadra and Nagar Havili and Daman and Diu</option>
+<option value="8">Delhi</option>
+<option value="9">Goa</option>
+<option value="20">Maharashtra</option>
+
+
+
+
+
+
+</select>
+
+<button class="btn btn-primary " id="sswise" onclick="callapi()">Go</button>
+<br>
+<br>
+
+
+<div class="container">
+		<div class="row">
+	<div class="col-md-4">
+			Confirmed 
+			<br>
+			<p id="cis"></p>
+	</div>
+	<div class="col-md-4">
+			Recovered 
+			<br>
+			<p id="ris"></p>
+	</div>
+	<div class="col-md-4">
+			Deaths
+			<br>
+			<p id="dis"></p>
+	</div>
+	</div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>
